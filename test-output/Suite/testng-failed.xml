@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="Hackathon_Test.APITest">
+        <methods>
+          <include name="raiseAssertion"/>
+          <include name="deleteAllureReport"/>
+          <include name="testGoodRequest"/>
+          <include name="generateAllureReport"/>
+        </methods>
+      </class> <!-- Hackathon_Test.APITest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

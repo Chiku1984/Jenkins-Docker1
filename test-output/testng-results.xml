@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28446" started-at="2020-11-20T14:58:53Z" finished-at="2020-11-20T14:59:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28446" started-at="2020-11-20T14:58:53Z" finished-at="2020-11-20T14:59:21Z">
+      <class name="Hackathon_Test.APITest">
+        <test-method status="PASS" signature="deleteAllureReport()[pri:0, instance:Hackathon_Test.APITest@6f7e336b]" name="deleteAllureReport" is-config="true" duration-ms="250" started-at="2020-11-20T14:58:53Z" finished-at="2020-11-20T14:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllureReport -->
+        <test-method status="FAIL" signature="testGoodRequest()[pri:0, instance:Hackathon_Test.APITest@6f7e336b]" name="testGoodRequest" duration-ms="28072" started-at="2020-11-20T14:58:53Z" description="Good Request" finished-at="2020-11-20T14:59:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at Hackathon_Test.APITest.printlog(APITest.java:798)
+at Hackathon_Test.APITest.apiTestPASS(APITest.java:514)
+at Hackathon_Test.APITest.testGoodRequest(APITest.java:281)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoodRequest -->
+        <test-method status="PASS" signature="testBadRequest()[pri:0, instance:Hackathon_Test.APITest@6f7e336b]" name="testBadRequest" duration-ms="20422" started-at="2020-11-20T14:58:53Z" description="Bad Request" finished-at="2020-11-20T14:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBadRequest -->
+        <test-method status="PASS" signature="raiseAssertion()[pri:0, instance:Hackathon_Test.APITest@6f7e336b]" name="raiseAssertion" is-config="true" duration-ms="1" started-at="2020-11-20T14:59:21Z" finished-at="2020-11-20T14:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- raiseAssertion -->
+        <test-method status="PASS" signature="generateAllureReport()[pri:0, instance:Hackathon_Test.APITest@6f7e336b]" name="generateAllureReport" is-config="true" duration-ms="5019" started-at="2020-11-20T14:59:22Z" finished-at="2020-11-20T14:59:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateAllureReport -->
+      </class> <!-- Hackathon_Test.APITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

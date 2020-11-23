@@ -1,0 +1,38 @@
+{
+    "Z_YYKC_SALES_ORDER_CREATE": {
+        "IWA_HEADER": {
+            "SALES_ORG": "7024",
+            "DOC_TYPE": "ZSMP",
+            "DIVISION": "02",
+            "DISTR_CHAN": "50"
+        },
+        "IW_TESTRUN": "X",
+        "IW_APPNAME": "SFDC_KCP_DIGTRANSF",
+        "ITB_PARTNER": {
+            "item": [
+                {
+                    "PARTN_ROLE": "AG",
+                    "PARTN_NUMB": "0042026019",
+                    "ITM_NUMBER": "000000"
+                },
+                {
+                    "PARTN_ROLE": "WE",
+                    "PARTN_NUMB": "0042026019",
+                    "ITM_NUMBER": "000000"
+                }
+            ]
+        },
+        "ITB_ITEMS": {
+            "item": [
+                {
+                    "TARGET_QTY": "1",
+                    "MATERIAL": "000000000030197119",
+                    "ITM_NUMBER": "000010"
+                }
+            ]
+        }
+   
+    },
+
+    "region": "1"
+} 

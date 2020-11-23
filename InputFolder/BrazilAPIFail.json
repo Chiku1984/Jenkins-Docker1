@@ -1,0 +1,33 @@
+{
+    "Z_YYKC_SALES_ORDER_CREATE": {
+        "IWA_HEADER": {
+            "SALES_ORG": "7024",
+            "DOC_TYPE": "ZSMP",
+            "DIVISION": "02",
+            "DISTR_CHAN": "50"
+        },
+        "IW_TESTRUN": "X",
+        "IW_APPNAME": "SFDC_KCP_DIGTRANSF",
+        "ITB_PARTNER": {
+            "item": [
+                
+                {
+                    "PARTN_ROLE": "18"
+                    
+                }
+            ]
+        },
+        "ITB_ITEMS": {
+            "item": [
+                {
+                    "TARGET_QTY": "c",
+                    "MATERIAL": "abc",
+                    "ITM_NUMBER": "lkj"
+                }
+            ]
+        }
+   
+    },
+
+    "region": "1"
+} 
