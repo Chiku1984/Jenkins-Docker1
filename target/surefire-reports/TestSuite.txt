@@ -1,11 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.697 sec <<< FAILURE! - in TestSuite
-testGoodRequest(Hackathon_Test.APITest)  Time elapsed: 26.878 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at Hackathon_Test.APITest.printlog(APITest.java:798)
-	at Hackathon_Test.APITest.apiTestPASS(APITest.java:514)
-	at Hackathon_Test.APITest.testGoodRequest(APITest.java:281)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.808 sec - in TestSuite

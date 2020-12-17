@@ -204,6 +204,24 @@ public class APITest {
 											Integer.parseInt(parameterValue.split("-")[1]));
 
 								}
+								if (parameterValue.contains("RandomNumber")) {
+									parameterValue = parameterValue.replace("(", "");
+									parameterValue = parameterValue.replace(")", "");
+									parameterValue = parameterValue.split(",")[0];
+									parameterValue = RandomDataGen.NumberSequence_BetBounds(
+											Integer.parseInt(parameterValue.split("-")[0]),
+											Integer.parseInt(parameterValue.split("-")[1]));
+
+								}
+								if (parameterValue.contains("RandomAlphaNum")) {
+									parameterValue = parameterValue.replace("(", "");
+									parameterValue = parameterValue.replace(")", "");
+									parameterValue = parameterValue.split(",")[0];
+									parameterValue = RandomDataGen.AlphaNumericString_Sequence_BetBounds(
+											Integer.parseInt(parameterValue.split("-")[0]),
+											Integer.parseInt(parameterValue.split("-")[1]));
+
+								}
 								bodyPASS.put(parameterName, parameterValue);
 							}
 
@@ -226,6 +244,24 @@ public class APITest {
 											Integer.parseInt(parameterValue.split("-")[1]));
 
 								}
+								if (parameterValue.contains("RandomNumber")) {
+									parameterValue = parameterValue.replace("(", "");
+									parameterValue = parameterValue.replace(")", "");
+									parameterValue = parameterValue.split(",")[0];
+									parameterValue = RandomDataGen.NumberSequence_BetBounds(
+											Integer.parseInt(parameterValue.split("-")[0]),
+											Integer.parseInt(parameterValue.split("-")[1]));
+
+								}
+								if (parameterValue.contains("RandomAlphaNum")) {
+									parameterValue = parameterValue.replace("(", "");
+									parameterValue = parameterValue.replace(")", "");
+									parameterValue = parameterValue.split(",")[0];
+									parameterValue = RandomDataGen.AlphaNumericString_Sequence_BetBounds(
+											Integer.parseInt(parameterValue.split("-")[0]),
+											Integer.parseInt(parameterValue.split("-")[1]));
+
+								}
 								paramsPASS.put(parameterName, parameterValue);
 							}
 
@@ -244,6 +280,25 @@ public class APITest {
 									parameterValue = parameterValue.replace(")", "");
 									parameterValue = parameterValue.split(",")[0];
 									parameterValue = RandomDataGen.AlphaString_Sequence_BetBounds(
+											Integer.parseInt(parameterValue.split("-")[0]),
+											Integer.parseInt(parameterValue.split("-")[1]));
+
+								}
+
+								if (parameterValue.contains("RandomNumber")) {
+									parameterValue = parameterValue.replace("(", "");
+									parameterValue = parameterValue.replace(")", "");
+									parameterValue = parameterValue.split(",")[0];
+									parameterValue = RandomDataGen.NumberSequence_BetBounds(
+											Integer.parseInt(parameterValue.split("-")[0]),
+											Integer.parseInt(parameterValue.split("-")[1]));
+
+								}
+								if (parameterValue.contains("RandomAlphaNum")) {
+									parameterValue = parameterValue.replace("(", "");
+									parameterValue = parameterValue.replace(")", "");
+									parameterValue = parameterValue.split(",")[0];
+									parameterValue = RandomDataGen.AlphaNumericString_Sequence_BetBounds(
 											Integer.parseInt(parameterValue.split("-")[0]),
 											Integer.parseInt(parameterValue.split("-")[1]));
 
@@ -398,6 +453,24 @@ public class APITest {
 											Integer.parseInt(parameterValue.split("-")[1]));
 
 								}
+								if (parameterValue.contains("RandomNumber")) {
+									parameterValue = parameterValue.replace("(", "");
+									parameterValue = parameterValue.replace(")", "");
+									parameterValue = parameterValue.split(",")[0];
+									parameterValue = RandomDataGen.NumberSequence_BetBounds(
+											Integer.parseInt(parameterValue.split("-")[0]),
+											Integer.parseInt(parameterValue.split("-")[1]));
+
+								}
+								if (parameterValue.contains("RandomAlphaNum")) {
+									parameterValue = parameterValue.replace("(", "");
+									parameterValue = parameterValue.replace(")", "");
+									parameterValue = parameterValue.split(",")[0];
+									parameterValue = RandomDataGen.AlphaNumericString_Sequence_BetBounds(
+											Integer.parseInt(parameterValue.split("-")[0]),
+											Integer.parseInt(parameterValue.split("-")[1]));
+
+								}
 
 								bodyFAIL.put(parameterName, parameterValue);
 							}
@@ -421,6 +494,24 @@ public class APITest {
 											Integer.parseInt(parameterValue.split("-")[1]));
 
 								}
+								if (parameterValue.contains("RandomNumber")) {
+									parameterValue = parameterValue.replace("(", "");
+									parameterValue = parameterValue.replace(")", "");
+									parameterValue = parameterValue.split(",")[0];
+									parameterValue = RandomDataGen.NumberSequence_BetBounds(
+											Integer.parseInt(parameterValue.split("-")[0]),
+											Integer.parseInt(parameterValue.split("-")[1]));
+
+								}
+								if (parameterValue.contains("RandomAlphaNum")) {
+									parameterValue = parameterValue.replace("(", "");
+									parameterValue = parameterValue.replace(")", "");
+									parameterValue = parameterValue.split(",")[0];
+									parameterValue = RandomDataGen.AlphaNumericString_Sequence_BetBounds(
+											Integer.parseInt(parameterValue.split("-")[0]),
+											Integer.parseInt(parameterValue.split("-")[1]));
+
+								}
 								paramsFAIL.put(parameterName, parameterValue);
 							}
 
@@ -440,6 +531,24 @@ public class APITest {
 									parameterValue = parameterValue.replace(")", "");
 									parameterValue = parameterValue.split(",")[0];
 									parameterValue = RandomDataGen.AlphaString_Sequence_BetBounds(
+											Integer.parseInt(parameterValue.split("-")[0]),
+											Integer.parseInt(parameterValue.split("-")[1]));
+
+								}
+								if (parameterValue.contains("RandomNumber")) {
+									parameterValue = parameterValue.replace("(", "");
+									parameterValue = parameterValue.replace(")", "");
+									parameterValue = parameterValue.split(",")[0];
+									parameterValue = RandomDataGen.NumberSequence_BetBounds(
+											Integer.parseInt(parameterValue.split("-")[0]),
+											Integer.parseInt(parameterValue.split("-")[1]));
+
+								}
+								if (parameterValue.contains("RandomAlphaNum")) {
+									parameterValue = parameterValue.replace("(", "");
+									parameterValue = parameterValue.replace(")", "");
+									parameterValue = parameterValue.split(",")[0];
+									parameterValue = RandomDataGen.AlphaNumericString_Sequence_BetBounds(
 											Integer.parseInt(parameterValue.split("-")[0]),
 											Integer.parseInt(parameterValue.split("-")[1]));
 

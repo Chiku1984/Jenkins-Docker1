@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Hackathon_Test.APITest" hash-for-method="testGoodRequest">testGoodRequest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,6 +105,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Hackathon_Test.APITest" hash-for-method="testBadRequest">testBadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Hackathon_Test.APITest" hash-for-method="testGoodRequest">testGoodRequest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -133,32 +124,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Hackathon_Test.APITest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGoodRequest">
-                  </a> <!-- testGoodRequest -->
-                  <span class="method-name">testGoodRequest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at Hackathon_Test.APITest.printlog(APITest.java:798)
-	at Hackathon_Test.APITest.apiTestPASS(APITest.java:514)
-	at Hackathon_Test.APITest.testGoodRequest(APITest.java:281)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 13 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Good Request)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -172,6 +137,15 @@
                   <span class="method-name">testBadRequest</span>
                   <em>
 (Bad Request)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGoodRequest">
+                  </a> <!-- testGoodRequest -->
+                  <span class="method-name">testGoodRequest</span>
+                  <em>
+(Good Request)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -232,16 +206,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testGoodRequest')
 data.setCell(0, 2, 'Hackathon_Test.APITest')
-data.setCell(0, 3, 27008);
+data.setCell(0, 3, 21188);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testBadRequest')
 data.setCell(1, 2, 'Hackathon_Test.APITest')
-data.setCell(1, 3, 15327);
+data.setCell(1, 3, 11692);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 42 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -273,22 +247,20 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testGoodRequest</span>
-                <span class="method-start">208 ms</span>
+                <span class="method-name">testBadRequest</span>
+                <span class="method-start">131 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testBadRequest</span>
-                <span class="method-start">213 ms</span>
+                <span class="method-name">testGoodRequest</span>
+                <span class="method-start">131 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">raiseAssertion</span>
-                <span class="method-start">27231 ms</span>
+                <span class="method-start">21329 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">generateAllureReport</span>
-                <span class="method-start">27273 ms</span>
+                <span class="method-start">21368 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
