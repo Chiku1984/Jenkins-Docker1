@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21251" started-at="2020-12-14T15:28:00 UTC" finished-at="2020-12-14T15:28:21 UTC">
+  <suite name="Suite" duration-ms="17141" started-at="2020-12-19T11:47:27 UTC" finished-at="2020-12-19T11:47:44 UTC">
     <groups>
     </groups>
-    <test name="Test" duration-ms="21251" started-at="2020-12-14T15:28:00 UTC" finished-at="2020-12-14T15:28:21 UTC">
+    <test name="Test" duration-ms="17141" started-at="2020-12-19T11:47:27 UTC" finished-at="2020-12-19T11:47:44 UTC">
       <class name="Hackathon_Test.APITest">
-        <test-method status="PASS" signature="deleteAllureReport()[pri:0, instance:Hackathon_Test.APITest@1e0301d]" name="deleteAllureReport" is-config="true" duration-ms="70" started-at="2020-12-14T15:28:00 UTC" finished-at="2020-12-14T15:28:00 UTC">
+        <test-method status="PASS" signature="deleteAllureReport()[pri:0, instance:Hackathon_Test.APITest@10b3be0]" name="deleteAllureReport" is-config="true" duration-ms="77" started-at="2020-12-19T11:47:27 UTC" finished-at="2020-12-19T11:47:27 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllureReport -->
-        <test-method status="PASS" signature="testBadRequest()[pri:0, instance:Hackathon_Test.APITest@1e0301d]" name="testBadRequest" duration-ms="11692" started-at="2020-12-14T15:28:00 UTC" description="Bad Request" finished-at="2020-12-14T15:28:11 UTC">
+        <test-method status="PASS" signature="testBadRequest()[pri:0, instance:Hackathon_Test.APITest@10b3be0]" name="testBadRequest" duration-ms="12305" started-at="2020-12-19T11:47:27 UTC" description="Bad Request" finished-at="2020-12-19T11:47:39 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBadRequest -->
-        <test-method status="PASS" signature="testGoodRequest()[pri:0, instance:Hackathon_Test.APITest@1e0301d]" name="testGoodRequest" duration-ms="21188" started-at="2020-12-14T15:28:00 UTC" description="Good Request" finished-at="2020-12-14T15:28:21 UTC">
+        <test-method status="PASS" signature="testGoodRequest()[pri:0, instance:Hackathon_Test.APITest@10b3be0]" name="testGoodRequest" duration-ms="17062" started-at="2020-12-19T11:47:27 UTC" description="Good Request" finished-at="2020-12-19T11:47:44 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGoodRequest -->
-        <test-method status="PASS" signature="raiseAssertion()[pri:0, instance:Hackathon_Test.APITest@1e0301d]" name="raiseAssertion" is-config="true" duration-ms="1" started-at="2020-12-14T15:28:21 UTC" finished-at="2020-12-14T15:28:21 UTC">
+        <test-method status="PASS" signature="raiseAssertion()[pri:0, instance:Hackathon_Test.APITest@10b3be0]" name="raiseAssertion" is-config="true" duration-ms="1" started-at="2020-12-19T11:47:44 UTC" finished-at="2020-12-19T11:47:44 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- raiseAssertion -->
-        <test-method status="PASS" signature="generateAllureReport()[pri:0, instance:Hackathon_Test.APITest@1e0301d]" name="generateAllureReport" is-config="true" duration-ms="9722" started-at="2020-12-14T15:28:21 UTC" finished-at="2020-12-14T15:28:31 UTC">
+        <test-method status="PASS" signature="generateAllureReport()[pri:0, instance:Hackathon_Test.APITest@10b3be0]" name="generateAllureReport" is-config="true" duration-ms="10360" started-at="2020-12-19T11:47:44 UTC" finished-at="2020-12-19T11:47:54 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateAllureReport -->
