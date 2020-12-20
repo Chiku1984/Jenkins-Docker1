@@ -929,7 +929,7 @@ public class APITest {
 	@AfterSuite
 	public static void generateAllureReport() throws IOException {
 		//Linux - Generate Allure Report
-		System.out.println("Generating Allure Report...");
+		System.out.println("Generating Allure Report on Linux...");
 		String command = "allure -c /allure-results";
 		Process proc = Runtime.getRuntime().exec(command);
 		try {
@@ -941,6 +941,7 @@ public class APITest {
 		/*
 		
 		//Windows - Generate Allure Report
+		System.out.println("Generating Allure Report on Windows...");
 		String projectPath = System.getProperty("user.dir");
 		String allureCommandPath = "\\allure-commandline\\allure-2.13.6\\bin\\allure";
 		String allurePath = projectPath + allureCommandPath;
