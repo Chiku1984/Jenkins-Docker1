@@ -933,8 +933,8 @@ public class APITest {
 		String allurePath = projectPath + allureCommandPath;
 		// String allurePath =
 		// "R:\\git\\testscripts.regression.kimclark.com\\CustomerPortal-EMEA";
-		ProcessBuilder builder = new ProcessBuilder("cmd.exe", "/c",
-				allurePath + " serve " + projectPath + "\\allure-results");
+		ProcessBuilder builder = new ProcessBuilder("/bin/bash", "-c",
+				"allure" + " serve " + projectPath + "/allure-results");
 		builder.redirectErrorStream(true);
 
 		Process p = builder.start();
