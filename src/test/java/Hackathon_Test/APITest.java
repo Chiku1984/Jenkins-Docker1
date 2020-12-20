@@ -930,7 +930,11 @@ public class APITest {
 		//Linux - Generate Allure Report
 		String command = "allure -c /allure-results";
 		Process proc = Runtime.getRuntime().exec(command);
-		proc.waitFor();
+		try {
+			proc.waitFor();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		/*
 		//Windows - Generate Allure Report
 		String projectPath = System.getProperty("user.dir");
