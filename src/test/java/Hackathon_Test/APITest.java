@@ -928,6 +928,7 @@ public class APITest {
 	@AfterSuite
 	public static void generateAllureReport() throws IOException {
 		//Linux - Generate Allure Report
+		System.out.println("Generating Allure Report...");
 		String command = "allure -c /allure-results";
 		Process proc = Runtime.getRuntime().exec(command);
 		try {
