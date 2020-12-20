@@ -912,6 +912,7 @@ public class APITest {
 
 	@BeforeSuite
 	public static void deleteAllureReport() throws IOException {
+		System.out.println("Deleting Allure Report...");
 		String projectPath = System.getProperty("user.dir");
 		try {
 			FileUtils.deleteDirectory(new File(projectPath + "/allure-results"));
