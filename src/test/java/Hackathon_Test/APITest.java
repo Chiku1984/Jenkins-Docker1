@@ -914,7 +914,7 @@ public class APITest {
 	public static void deleteAllureReport() throws IOException {
 		String projectPath = System.getProperty("user.dir");
 		try {
-			FileUtils.deleteDirectory(new File(projectPath + "\\allure-results"));
+			FileUtils.deleteDirectory(new File(projectPath + "/allure-results"));
 		} catch (Exception e) {
 			System.out.println("Allure Result Folder Does not Exists");
 		}
