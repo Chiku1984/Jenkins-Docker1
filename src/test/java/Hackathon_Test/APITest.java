@@ -935,27 +935,6 @@ public class APITest {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		/*
-		//Windows - Generate Allure Report
-		String projectPath = System.getProperty("user.dir");
-		String allureCommandPath = "\\allure-commandline\\allure-2.13.6\\bin\\allure";
-		String allurePath = projectPath + allureCommandPath;
-		// String allurePath =
-		// "R:\\git\\testscripts.regression.kimclark.com\\CustomerPortal-EMEA";
-		ProcessBuilder builder = new ProcessBuilder("cmd.exe", /-c",
-				allurePath + " serve " + projectPath + "\\allure-results");
-		builder.redirectErrorStream(true);
-
-		Process p = builder.start();
-		System.out.println("Started the Process" + p.toString());
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		p.destroyForcibly();
-		*/
 	}
 
 	public static SimpleDateFormat isDate(String date) {
