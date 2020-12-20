@@ -927,14 +927,19 @@ public class APITest {
 
 	@AfterSuite
 	public static void generateAllureReport() throws IOException {
-
+		//Linux - Generate Allure Report
+		String command = "allure -c /allure-results";
+		Process proc = Runtime.getRuntime().exec(command);
+		proc.waitFor();
+		/*
+		//Windows - Generate Allure Report
 		String projectPath = System.getProperty("user.dir");
 		String allureCommandPath = "\\allure-commandline\\allure-2.13.6\\bin\\allure";
 		String allurePath = projectPath + allureCommandPath;
 		// String allurePath =
 		// "R:\\git\\testscripts.regression.kimclark.com\\CustomerPortal-EMEA";
-		ProcessBuilder builder = new ProcessBuilder("/bin/bash", "-c",
-				"allure" + " serve " + projectPath + "/allure-results");
+		ProcessBuilder builder = new ProcessBuilder("cmd.exe", /-c",
+				allurePath + " serve " + projectPath + "\\allure-results");
 		builder.redirectErrorStream(true);
 
 		Process p = builder.start();
@@ -946,6 +951,7 @@ public class APITest {
 			e.printStackTrace();
 		}
 		p.destroyForcibly();
+		*/
 	}
 
 	public static SimpleDateFormat isDate(String date) {
